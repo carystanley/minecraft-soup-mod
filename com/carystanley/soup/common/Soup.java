@@ -24,8 +24,8 @@ public class Soup {
 	public static Item wontonSoup = (new SoupBase(5675, 6)).setUnlocalizedName("wontonSoup").setTextureName("mushroom_stew");
 	public static Item mulligatawnySoup = (new SoupBase(5676, 6)).setUnlocalizedName("mulligatawnySoup").setTextureName("mushroom_stew");
 	public static Item splitPeaSoup = (new SoupBase(5677, 6)).setUnlocalizedName("splitPeaSoup").setTextureName("mushroom_stew");
-	public static Item cactusSoup = (new SoupBase(5678, 6)).setUnlocalizedName("cactusSoup").setTextureName("mushroom_stew");
-		
+	public static Item cactusSoup = (new SoupBase(5678, 6)).setUnlocalizedName("cactusSoup").setTextureName("soup:cactus_soup");
+
 	@Init
 	public void load(FMLInitializationEvent event) {
 		loadRecipes();
