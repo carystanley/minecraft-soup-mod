@@ -16,16 +16,16 @@ import cpw.mods.fml.common.registry.LanguageRegistry;
 
 public class Soup {
 
-	public static Item chickenNoodleSoup = (new SoupBase(5670, 6)).setUnlocalizedName("chickenNoodleSoup").setTextureName("mushroom_stew");
+	public static Item chickenNoodleSoup = (new SoupBase(5670, 6)).setUnlocalizedName("chickenNoodleSoup").setTextureName("soup:chicken_noodle_soup");
 	public static Item carrotSoup = (new SoupBase(5671, 6)).setUnlocalizedName("carrotSoup").setTextureName("soup:carrot_soup");
-	public static Item beefStew = (new SoupBase(5672, 6)).setUnlocalizedName("beefStew").setTextureName("mushroom_stew");
-	public static Item potatoSoup = (new SoupBase(5673, 6)).setUnlocalizedName("potatoSoup").setTextureName("mushroom_stew");
-	public static Item pumpkinSoup = (new SoupBase(5674, 6)).setUnlocalizedName("pumpkinSoup").setTextureName("mushroom_stew");
-	public static Item wontonSoup = (new SoupBase(5675, 6)).setUnlocalizedName("wontonSoup").setTextureName("mushroom_stew");
-	public static Item mulligatawnySoup = (new SoupBase(5676, 6)).setUnlocalizedName("mulligatawnySoup").setTextureName("mushroom_stew");
-	public static Item splitPeaSoup = (new SoupBase(5677, 6)).setUnlocalizedName("splitPeaSoup").setTextureName("mushroom_stew");
-	public static Item cactusSoup = (new SoupBase(5678, 6)).setUnlocalizedName("cactusSoup").setTextureName("mushroom_stew");
-		
+	public static Item beefStew = (new SoupBase(5672, 6)).setUnlocalizedName("beefStew").setTextureName("soup:beef_stew");
+	public static Item potatoSoup = (new SoupBase(5673, 6)).setUnlocalizedName("potatoSoup").setTextureName("soup:potato_soup");
+	public static Item pumpkinSoup = (new SoupBase(5674, 6)).setUnlocalizedName("pumpkinSoup").setTextureName("soup:pumpkin_soup");
+	public static Item wontonSoup = (new SoupBase(5675, 6)).setUnlocalizedName("wontonSoup").setTextureName("soup:wonton_soup");
+	public static Item mulligatawnySoup = (new SoupBase(5676, 6)).setUnlocalizedName("mulligatawnySoup").setTextureName("soup:mulligatawny_soup");
+	public static Item splitPeaSoup = (new SoupBase(5677, 6)).setUnlocalizedName("splitPeaSoup").setTextureName("soup:split_pea_soup");
+	public static Item cactusSoup = (new SoupBase(5678, 6)).setUnlocalizedName("cactusSoup").setTextureName("soup:cactus_soup");
+
 	@Init
 	public void load(FMLInitializationEvent event) {
 		loadRecipes();
