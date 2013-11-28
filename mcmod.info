@@ -1,0 +1,19 @@
+[
+{
+  "modid": "carystanley_soup",
+  "name": "Soup Mod",
+  "description": "Extending Minecraft with lots more soup!",
+  "version": "",
+  "credits": "Created by Cary Stanley",
+  "logoFile": "",
+  "mcversion": "",
+  "url": "http://carystanley.github.io/minecraft-soup-mod/",
+  "updateUrl": "",
+  "authors": [ "carystanley" ],
+  "parent":"",
+  "screenshots": [],
+  "dependencies": [
+	 "mod_MinecraftForge"
+]
+}
+]
